@@ -10,16 +10,17 @@ public class EmployeeMangementsystem {
         for(int i =0;i<n;i++) {
         	System.out.println("Choose 1 for Full-time Employee  and 2 for part-time Employee");
         	int m = sc.nextInt();
-        	
+        	sc.nextLine();
         	System.out.println("Enter Employee Code");
             String employeecode = sc.nextLine();
-            System.out.print("Enter Employee Name");
+            
+            System.out.println("Enter Employee Name");
             String name = sc.nextLine();
-            System.out.print("Enter Year of Joining");
+            System.out.println("Enter Year of Joining");
             String year = sc.nextLine();
-            System.out.print("Enter Department");
+            System.out.println("Enter Department");
             String department = sc.nextLine();
-            System.out.print("Enter Designation");
+            System.out.println("Enter Designation");
             String designation = sc.nextLine();
             
             if(m ==1) {
